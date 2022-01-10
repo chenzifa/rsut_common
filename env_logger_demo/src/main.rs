@@ -3,7 +3,9 @@ extern crate log;
 extern crate chrono;
 use env_logger::Env;
 use std::io::Write;
-
+///
+/// 日志使用样例
+/// 
 fn main() {
     use chrono::Local;
     // Initialize logging.
